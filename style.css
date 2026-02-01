@@ -1,0 +1,78 @@
+:root{
+  --bg:#071026;
+  --accent1:#7c3aed;
+  --accent2:#06b6d4;
+  --success:#22c55e;
+  --danger:#ef4444;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  font-family:Inter,sans-serif;
+  color:#fff;
+}
+
+.container{
+  max-width:520px;
+  margin:auto;
+}
+
+.panel{
+  padding:20px;
+  background:#0b1220;
+  border-radius:12px;
+}
+
+.logo{
+  width:70px;
+  height:70px;
+  background:url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQwP-rBZW1AR5hlDO1R76uKGSB_RPI4FuXtTn5W2PnOiIyz1ms8B1rPhZISdZwf9I6x4prEwhHjIUyOxtxUznPh_eOrTE2LGs6ntaNcF0Xk3JcSJejLJqcr8AZPtAtDCPOgiUZIVUBIV79WbUFSSBnGBrRPUNi-EfTQ8kXGMGz4ML_qzglxdzhbiXAEQY/s500/Your_paragraph_text-removebg-preview.png")
+  center/cover no-repeat;
+  border-radius:14px;
+}
+
+.tf-btn{
+  padding:8px 12px;
+  border-radius:8px;
+  border:none;
+  background:#111827;
+  color:#9ca3af;
+}
+
+.tf-btn.active{
+  background:linear-gradient(90deg,var(--accent1),var(--accent2));
+  color:#000;
+}
+
+.market-toggle{
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  background:transparent;
+  border:1px solid #555;
+  color:#fff;
+}
+
+.signal-visual{
+  width:100px;
+  height:100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.arrow{
+  width:60px;
+  height:60px;
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+#callArrow{
+  background-image:url("https://geniustradingbot.com/wp-content/uploads/2024/03/callno.png");
+}
+
+#putArrow{
+  background-image:url("https://geniustradingbot.com/wp-content/uploads/2024/03/putno.png");
+}
